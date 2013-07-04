@@ -1,0 +1,61 @@
+/* CSS RESET */
+
+
+
+
+
+/* HTML5 tags */
+header, section,footer, aside, nav, article{
+  display: block;
+}
+
+
+
+/**** Global ****/
+
+/* Body */
+
+body{
+	background: #ccc;
+	color: #204E74;
+	font-size: 87.5%;  /* Based on font size 14px */
+	font-family: arial, Helvetica;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+/* Headings */
+
+h1{
+	font-size: 1.571em; /* 22px */
+}
+h2{
+	font-size: 1.429em; /* 20px */
+}
+h3{
+	font-size: 1em; /* 14px */
+}
+
+h1, h2, h3{
+	font-weight: 700;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+
+/* Anchors */
+
+a{
+	outline: 0;
+}
+a img{
+	border: 0px;
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #537C9E;
+	padding: 0 1px;
+
+}
